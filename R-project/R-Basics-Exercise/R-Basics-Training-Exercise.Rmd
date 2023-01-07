@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## **R Basics Exercise**
 
-**Author**: Suchanya Namwong
+##### **Author: Suchanya Namwong**
 
 ------------------------------------------------------------------------
 
