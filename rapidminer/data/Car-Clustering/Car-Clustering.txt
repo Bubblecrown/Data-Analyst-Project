@@ -1,0 +1,10 @@
+Clustering Lab (ชุดข้อมูลการประเมินรถ)
+
+ประกอบด้วยข้อมูล 6 ตัวแปรดังต่อไปนี้
+
+     1. ตัวแปร buying เช่น vhigh, high, med, low
+     2. ตัวแปร maint เช่น vhigh, high, med, low
+     3. ตัวแปร doors เช่น 2, 3, 4, 5 เป็นต้น
+     4. ตัวแปร persons เช่น 2, 4 เป็นต้น
+     5. ตัวแปร lug_boot เช่น small, med, big
+     6. ตัวแปร safety เช่น low, med, high

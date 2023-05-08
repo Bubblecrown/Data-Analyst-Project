@@ -1,0 +1,12 @@
+หากฎความสัมพันธ์จากชุดข้อมูล OnlineRetail V2 ตามขั้นตอนดังต่อไปนี้
+
+     1. นำข้อมูล OnlineRetail V2 เข้า RapidMiner (เลือกประเภทของตัวแปรตามการตั้งค่า Default ที่กำหนดมาให้)
+     2. จากนั้นทำการ Filter Examples โดยเลือกตัวอย่างเฉพาะ UnitPrice มีค่ามาก 1 และ Quantity ต้องมากกว่า 0
+     3. เลือกตัวตัวแปร (Select Attributes) 2 ตัวแปรมาใช้งานเท่านั้น คือ 1. ตัวแปร UserID และ 2. ตัวแปร Basket
+     4. ทำการแปลงข้อมูลประเภท Nominal ให้กลายเป็นข้อมูลประเภท Numericcal
+     5. จากนั้น Aggregate ข้อมูลด้วยตัวแปร UserID เพียงตัวแปรเดียว
+     6. ให้ทำการ Rename by Replacing ทุกตัวแปรด้วย >> maximum|Basket| = |\(|\)
+	7. แปลงข้อมูลจาก Numerical ให้กลายเป็นข้อมูลประเภท Binominal
+     8. จากนั้นทำการเลือกตัวแปรทุกตัว ยกเว้น ตัวแปร UserID ด้วยโหนด Select Attributes
+     9. จากนั้นส่งต่อเข้าโหนด FP-Grownth โดยการปรับพารามิเตอร์ดังต่อไปนี้
+	10. สุดท้ายทำการสร้าง Association ด้วยโหนดที่ชื่อว่า Create Association Rules

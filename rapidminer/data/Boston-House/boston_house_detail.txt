@@ -1,0 +1,14 @@
+ข้อมูลชุดนี้มีเป้าหมายในการทำนายราคาบ้าน (PRICE) ซึ่งมีข้อมูลบ้านทั้งหมด 506 หลัง โดยมีตัวแปรดังแสดงด้านล่าง
+
+     1. CRIM: per capita crime rate by town อัตราการเกิดอาชญากรรม
+     2. ZN: proportion of residential land zoned for lots over 25,000 sq.ft. ความหนาแน่นของประชากร
+     3. INDUS: proportion of nonretail business acres per town สัดส่วนพื้นที่ ที่ไม่ได้ใช้ในการทำธุรกิจภายในเมือง
+     4. CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise) อยู่ติดแม่น้ำหรือไม่ ซึ่งตัวแปรนี้ต้องกำหนดให้เป็น binominal
+     5. NOX: nitric oxides concentration (parts per 10 million). ความเข้มข้นของก๊าซ NOX
+     6. RM: average number of rooms per dwelling จำนวนห้องเฉลี่ยต่อบ้านหนึ่งหลังในย่านนั้น ๆ
+     7. AGE: proportion of owner-occupied units built prior to 1940 สัดส่วนจำนวนบ้านที่สร้างก่อนปี 1940 ในย่านนั้น ๆ
+     8. DIS: weighted distances to five Boston employment centers ระยะห่างจากบ้านไปยังศูนย์ส่งเสริมอาชีพของ Boston
+     9. RAD: index of accessibility to radial highways ตัวชี้วัดในการเดินทางไปยัง highways
+     10. TAX: full-value property-tax rate per $10,000 อัตราภาษีที่ดินต่อราคาบ้าน $10,000
+     11. B: 1000(Bk – 0.63)2 where Bk is the proportion of blacks by town. สัดส่วนของคนผิวสีในพื้นที่
+     12. PRICE ราคาบ้านในหน่วย $1,000

@@ -1,0 +1,18 @@
+Classification Lab (ชุดข้อมูลไวน์)
+
+ประกอบไปด้วยตัวแปรทั่้งหมด 14 ตัวแปร ดังต่อไปนี้ 
+
+     1) ตัวแปร Alcohol 
+     2) ตัวแปร Malic acid 
+     3) ตัวแปร Ash 
+     4) ตัวแปร Alcalinity of ash 
+     5) ตัวแปร Magnesium 
+     6) ตัวแปร Total phenols 
+     7) ตัวแปร Flavanoids 
+     8) ตัวแปร Nonflavanoid phenols 
+     9) ตัวแปร Proanthocyanins 
+    10) ตัวแปร Color intensity 
+    11) ตัวแปร Hue 
+    12) ตัวแปร OD280/OD315 of diluted wines 
+    13) ตัวแปร Proline 
+    14) ตัวแปรเป้าหมาย Class
